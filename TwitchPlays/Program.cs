@@ -316,14 +316,62 @@ namespace TwitchPlays
                 case "up":
                     Button(BTN.up, 200);
                     break;
+                case "up*2":
+                    ButtonCombo(new char[] { BTN.up, BTN.up });
+                    break;
+                case "up*4":
+                    ButtonCombo(new char[] { BTN.up, BTN.up, BTN.up, BTN.up });
+                    break;
+                case "up*6":
+                    ButtonCombo(new char[] { BTN.up, BTN.up, BTN.up, BTN.up, BTN.up, BTN.up });
+                    break;
+                case "up*8":
+                    ButtonCombo(new char[] { BTN.up, BTN.up, BTN.up, BTN.up, BTN.up, BTN.up, BTN.up, BTN.up });
+                    break;
                 case "down":
                     Button(BTN.down, 200);
+                    break;
+                case "down*2":
+                    ButtonCombo(new char[] { BTN.down, BTN.down });
+                    break;
+                case "down*4":
+                    ButtonCombo(new char[] { BTN.down, BTN.down, BTN.down, BTN.down });
+                    break;
+                case "down*6":
+                    ButtonCombo(new char[] { BTN.down, BTN.down, BTN.down, BTN.down, BTN.down, BTN.down });
+                    break;
+                case "down*8":
+                    ButtonCombo(new char[] { BTN.down, BTN.down, BTN.down, BTN.down, BTN.down, BTN.down, BTN.down, BTN.down });
                     break;
                 case "left":
                     Button(BTN.left, 200);
                     break;
+                case "left*2":
+                    ButtonCombo(new char[] { BTN.left, BTN.left });
+                    break;
+                case "left*4":
+                    ButtonCombo(new char[] { BTN.left, BTN.left, BTN.left, BTN.left });
+                    break;
+                case "left*6":
+                    ButtonCombo(new char[] { BTN.left, BTN.left, BTN.left, BTN.left, BTN.left, BTN.left });
+                    break;
+                case "left*8":
+                    ButtonCombo(new char[] { BTN.left, BTN.left, BTN.left, BTN.left, BTN.left, BTN.left, BTN.left, BTN.left });
+                    break;
                 case "right":
                     Button(BTN.right,200);
+                    break;
+                case "right*2":
+                    ButtonCombo(new char[] { BTN.right, BTN.right });
+                    break;
+                case "right*4":
+                    ButtonCombo(new char[] { BTN.right, BTN.right, BTN.right, BTN.right });
+                    break;
+                case "right*6":
+                    ButtonCombo(new char[] { BTN.right, BTN.right, BTN.right, BTN.right, BTN.right, BTN.right });
+                    break;
+                case "right*8":
+                    ButtonCombo(new char[] { BTN.right, BTN.right, BTN.right, BTN.right, BTN.right, BTN.right, BTN.right, BTN.right });
                     break;
                 default:
                     commandReal = false;
