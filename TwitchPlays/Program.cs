@@ -160,6 +160,12 @@ namespace TwitchPlays
             string inifilepath = Application.StartupPath + "\\settings.ini";
             INIFile ini = new INIFile(inifilepath);
             string TOauth = ini.Read("Twitch", "Oauth");
+            if (TOauth == "")
+            {
+                Console.WriteLine("Please config the app in config.ini");
+                Sleep(1000);
+                return;
+            }
             //--------------
             Console.Write(TOauth);
             string pass = TOauth;
@@ -273,7 +279,7 @@ namespace TwitchPlays
             {
                 PressKey(b, true);
             }
-            Sleep(25);
+            Sleep(250);
             foreach (var b in btn)
             {
                 PressKey(b, false);
