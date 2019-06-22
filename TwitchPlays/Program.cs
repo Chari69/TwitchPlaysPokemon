@@ -279,7 +279,7 @@ namespace TwitchPlays
             {
                 PressKey(b, true);
             }
-            Sleep(250);
+            Sleep(1200);
             foreach (var b in btn)
             {
                 PressKey(b, false);
