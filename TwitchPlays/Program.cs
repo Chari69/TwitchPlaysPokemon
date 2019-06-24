@@ -208,6 +208,10 @@ namespace TwitchPlays
                 Console.WriteLine("Failed to connect!");
                 return;
             }
+            else
+            {
+                Console.WriteLine("Conected to " + chan);
+            }
             input = new System.IO.StreamReader(sock.GetStream());
             output = new System.IO.StreamWriter(sock.GetStream());
 
@@ -279,7 +283,7 @@ namespace TwitchPlays
             {
                 PressKey(b, true);
             }
-            Sleep(1200);
+            Sleep(1250);
             foreach (var b in btn)
             {
                 PressKey(b, false);
