@@ -2,8 +2,7 @@
 # Twitch Plays Pokemon Bot
 [![Build status](https://ci.appveyor.com/api/projects/status/ba8atmu3gna4ndb0?svg=true)](https://ci.appveyor.com/project/CharizardFire58/cpplayspokemon) ![Chari es negro](https://img.shields.io/badge/chari-es%20negro-informational.svg) ![CPPP Version](https://img.shields.io/badge/CPPP-1.0.1-red.svg)
 
-This bot was made for use on a community event called **CPPlaysPokemon** (cancelled). This work is a modification of [thewax/
-twitchplays](https://github.com/thewax/twitchplays) bot to simplify its use.
+This bot was made for use on a community event called **CPPlaysPokemon** (cancelled). This work is a modification of [thewax/twitchplays](https://github.com/thewax/twitchplays) bot to simplify its use.
 
 Only support [VisualBoyAdvanvce Emulator](https://www.pokeyplay.com/descargar_archivo.php?archivo=emuladores_gba/VisualBoyAdvance1.7.2.zip) and GB/GBC/GBA Games at this time.
 
